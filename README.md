@@ -10,7 +10,7 @@ Two Julia functions, `normalise_counts(counts, gc_frac)` and `normalise_counts_w
 
 
 ### Fitting linear models to count data
-Below is an example Julia code for fitting linear models to fragment count and local ctDNA fraction data.
+Below is an example Julia code of a how we fit linear models to fragment count and local ctDNA fraction data.
 
 Load normalised fragment counts and local ctDNA fractions from Supplementary Table 8.
 ```
