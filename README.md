@@ -54,7 +54,7 @@ model1 = GLM.lm(@formula(y ~ x1 + x1 & x2), data)
 β0, β1, β2 = coef(model1)
 normal = β0 # Model count for sample with 0% cancer
 cancer0 = β0 + β1 # Model count for group 0 sample with 100% cancer
-cancer1 = β0 + β1 +β2 # Model count for group 1 sample with 100% cancer
+cancer1 = β0 + β1 + β2 # Model count for group 1 sample with 100% cancer
 ```
 
 Calculate F-test p-value for the group term `β2FG` in the bivariate model
